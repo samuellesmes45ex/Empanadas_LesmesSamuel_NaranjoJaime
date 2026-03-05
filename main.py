@@ -31,6 +31,9 @@ def main():
 
         elif opcion == "5":
             print("Programa terminado")
+            print("Programa terminado")
+            print("Programa terminado")
+            print("Programa terminado")
             break
 
         else:
