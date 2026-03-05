@@ -1,4 +1,5 @@
-from empanadas import cargar_empanadas, listar, agregar, editar, eliminar
+from usuario_a import cargar_empanadas, listar, agregar
+from usuario_b import editar, eliminar
 
 def mostrar_menu():
     print("\n=== MENU EMPANADAS ===")
