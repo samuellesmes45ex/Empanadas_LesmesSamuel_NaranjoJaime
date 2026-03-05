@@ -21,3 +21,18 @@ def editar(empanadas):
             return
 
     print("Empanada no encontrada")
+
+def eliminar(empanadas):
+
+    nombre = input("Nombre de la empanada a eliminar: ")
+
+    for e in empanadas:
+
+        if e["nombre"] == nombre:
+            empanadas.remove(e)
+            guardar_empanadas(empanadas)
+
+            print("Empanada eliminada")
+            return
+
+    print("Empanada no encontrada")
