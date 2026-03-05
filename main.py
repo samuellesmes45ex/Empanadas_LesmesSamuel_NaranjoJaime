@@ -30,7 +30,7 @@ def main():
             eliminar(empanadas)
 
         elif opcion == "5":
-            print("Programa finalizado")
+            print("Programa terminado")
             break
 
         else:
