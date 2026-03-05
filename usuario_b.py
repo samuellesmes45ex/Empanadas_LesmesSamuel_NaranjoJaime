@@ -7,7 +7,7 @@ def editar(empanadas):
         if e["nombre"] == nombre:
 
             try:
-                e["precio"] = float(input("Nuevo precio: "))
+                e["precio"] = float(input("actualizar precio: "))
             except:
                 print("Precio inválido")
                 return
